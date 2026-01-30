@@ -2,7 +2,7 @@
 
 A comprehensive framework for measuring, analyzing, and mitigating bias in large language models through counterfactual data generation, filtering pipelines, and fine-tuning with LoRA (Low-Rank Adaptation).
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Key Features](#key-features)
@@ -39,29 +39,29 @@ This approach enables researchers and practitioners to build fairer AI systems w
 
 ## Key Features
 
-### 🎯 Multi-Domain Bias Testing
+### Multi-Domain Bias Testing
 - **5 Critical Domains**: Hiring, Healthcare, Education, Finance, Content Moderation
 - **Intersectional Analysis**: Examines bias across multiple demographic attributes simultaneously
 - **Real-World Scenarios**: Templates based on actual decision-making contexts
 
-### 🔄 Counterfactual Data Generation
+### Counterfactual Data Generation
 - Systematic variation of sensitive attributes (gender, religion, nationality)
 - Maintains semantic consistency across counterfactual pairs
 - Preserves task context while changing demographic information
 
-### 🧹 Intelligent Filtering Pipeline
+### Intelligent Filtering Pipeline
 - **Heuristic Filters**: Removes profanity, slurs, and harmful content
 - **Semantic Invariance**: Ensures response consistency across counterfactuals (85% similarity threshold)
 - **Sentiment Alignment**: Filters responses with divergent sentiment (±0.2 tolerance)
 - **Refusal Detection**: Identifies and handles model refusal responses
 
-### 🚀 Efficient Fine-Tuning
+### Efficient Fine-Tuning
 - **LoRA Integration**: Parameter-efficient training using Low-Rank Adaptation
 - **Base Model**: Qwen 1.5-1.8B-Chat (customizable)
 - **Optimized Configuration**: bfloat16 precision, gradient checkpointing
 - **Resource Efficient**: Trains on consumer hardware
 
-### 📊 Comprehensive Evaluation
+### Comprehensive Evaluation
 - **Bias Metrics**: Sentiment disparity, refusal rate analysis, intersectional group comparisons
 - **Capability Metrics**: Task performance preservation checks
 - **Visualization**: Automated plotting of bias-capability tradeoffs
@@ -873,7 +873,8 @@ This project is licensed under the MIT License. See `LICENSE` file for details.
 ## Contact
 
 **Paridhi Sharma**  
-GitHub: [@theparidhisharma](https://github.com/theparidhisharma)
+LinkedIn: [@theparidhisharma](https://www.linkedin.com/in/theparidhisharma/)
+Mail: [paridhi0203sharma@gmail.com]
 
 For questions, issues, or collaboration opportunities, please open an issue on GitHub.
 
